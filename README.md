@@ -41,7 +41,7 @@ Copiar código
 import pandas as pd
 import cloudpickle as pickle
 
-# Carregar o scaler, o modelo, as colunas do conjunto de treinamento e os vencedores do Oscar
+ Carregar o scaler, o modelo, as colunas do conjunto de treinamento e os vencedores do Oscar
 with open('scaler.pkl', 'rb') as f:
     scaler = pickle.load(f)
 
@@ -61,7 +61,7 @@ with open('check_oscar_winners.pkl', 'rb') as f:
 with open('preprocess_input.pkl', 'rb') as f:
     preprocess_input = pickle.load(f)
 
-# Novo input, Adicione o dicionário conforme modelo abaixo do filme que você quer fazer a previsão
+ Novo input, Adicione o dicionário conforme modelo abaixo do filme que você quer fazer a previsão
 new_input = {
     'Series_Title': 'The Shawshank Redemption',
     'Released_Year': '1994',
@@ -79,10 +79,10 @@ new_input = {
     'Gross': '28,341,469'
 }
 
-# Preprocessar o novo input
+ Preprocessar o novo input
 processed_input = preprocess_input(new_input, scaler, X_columns, oscar_winner_names)
 
-# Fazer a previsão
+ Fazer a previsão
 prediction = regressor.predict(processed_input)
 print(f'Predicted IMDB Rating: {prediction[0]}')
 Execute o Script:
