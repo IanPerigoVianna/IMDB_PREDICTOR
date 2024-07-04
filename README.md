@@ -10,7 +10,7 @@ Abra um terminal ou prompt de comando e execute o seguinte comando para clonar o
 bash
 Copiar código
 git clone (https://github.com/IanPerigoVianna/IMDB_PREDICTOR.git)
-Substitua <URL do seu repositório> pela URL do seu repositório Git onde os arquivos do projeto estão armazenados.
+
 
 Navegue até o diretório do projeto:
 
