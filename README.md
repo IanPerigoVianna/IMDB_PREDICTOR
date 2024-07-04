@@ -7,8 +7,7 @@ Clone o repositório:
 
 Abra um terminal ou prompt de comando e execute o seguinte comando para clonar o repositório:
 
-bash
-Copiar código
+
 git clone (https://github.com/IanPerigoVianna/IMDB_PREDICTOR.git)
 
 
@@ -16,8 +15,7 @@ Navegue até o diretório do projeto:
 
 Após clonar o repositório, navegue até o diretório onde o projeto foi clonado:
 
-bash
-Copiar código
+
 cd nome_do_repositorio
 Substitua nome_do_repositorio pelo nome do diretório onde o repositório foi clonado.
 
@@ -26,8 +24,7 @@ Instale as bibliotecas necessárias:
 
 No mesmo terminal ou prompt de comando, instale as bibliotecas necessárias especificadas no arquivo requirements.txt. Certifique-se de estar no diretório raiz do projeto onde o arquivo requirements.txt está localizado:
 
-bash
-Copiar código
+
 pip install -r requirements.txt
 Isso garantirá que todas as dependências do projeto sejam instaladas corretamente.
 
@@ -36,8 +33,7 @@ Copie o Código:
 
 Copie o seguinte código e salve em um arquivo Python, por exemplo, predict_imdb_rating.py.
 
-python
-Copiar código
+
 import pandas as pd
 import cloudpickle as pickle
 
@@ -89,8 +85,7 @@ Execute o Script:
 
 No mesmo terminal ou prompt de comando, navegue até o diretório onde o arquivo predict_imdb_rating.py está localizado e execute o seguinte comando:
 
-bash
-Copiar código
+
 python predict_imdb_rating.py
 Explicação dos Componentes do Script
 Carregar Modelos e Funções:
