@@ -1,4 +1,22 @@
 README: Como Executar o Script para Previsão da Nota do IMDb
+ARQUIVOS:
+
+IMDB_PREDICTOR.IPYNB - É o arquivo com o código de toda análise exploratória de dados e treino de machine learning
+
+PREDIÇÃO_IMDB.IPYNB - É o arquivo com o modelo de como desserializar os arquivos .pkl, prencher o input com um dicionário para a predição da nota do IMDB
+
+LH_CD_IAN_PERIGO.PDF - É o relatório em pdf da nossa análise, treinos e  resultados
+
+requeriments.txt- Tem toda biblioteca e suas versões necessárias para o nosso modelo e para a execução dele
+
+Diretórios:
+
+WordCloud - Possui as imagens da nuvem de palavras da sinopse dos filmes
+
+data- Possui os arquivos csv utilizados
+
+serializados - possui os arquivos .pkl para serem desserializados.
+
 Este guia fornece instruções sobre como executar o script Python para prever a nota do IMDb de um filme com base em suas características. O script utiliza um modelo de machine learning pré-treinado, juntamente com uma função de preprocessamento para preparar os dados de entrada.
 
 Passos Iniciais
