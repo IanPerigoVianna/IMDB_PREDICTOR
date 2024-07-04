@@ -1,4 +1,5 @@
 README: Como Executar o Script para Previsão da Nota do IMDb
+
 ARQUIVOS:
 
 IMDB_PREDICTOR.IPYNB - É o arquivo com o código de toda análise exploratória de dados e treino de machine learning
