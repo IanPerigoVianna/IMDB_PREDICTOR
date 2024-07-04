@@ -50,7 +50,7 @@ with open('X_columns.pkl', 'rb') as f:
 with open('oscar_winners.pkl', 'rb') as f:
     oscar_winner_names = pickle.load(f)
 
-# Carregar as funções serializadas
+ Carregar as funções serializadas
 with open('check_oscar_winners.pkl', 'rb') as f:
     check_oscar_winners = pickle.load(f)
 
